@@ -122,10 +122,10 @@ def main():
     
     \x1b[30;101mTech Stack:\x1b[0m
     --------------
-    \x1b[96mLangs:  \x1b[93mPython, C++, TypeScript, JavaScript, SQL\x1b[0m
-    \x1b[96mWeb:    \x1b[93mNext.js, FastAPI, Node.js, Tailwind CSS\x1b[0m
+    \x1b[96mLangs:  \x1b[93mPython, C++, TypeScript, JavaScript, Java\x1b[0m
+    \x1b[96mWeb:    \x1b[93mNext.js, FastAPI, Django, React\x1b[0m
     \x1b[96mAI/ML:  \x1b[93mPyTorch, LangGraph, LangChain, TensorFlow\x1b[0m
-    \x1b[96mInfra:  \x1b[93mPostgreSQL, Docker, Redis\x1b[0m
+    \x1b[96mInfra:  \x1b[93mPostgreSQL, Docker, Redis, Kubernetes\x1b[0m
     """
     t.gen_prompt(1)
     prompt_col = t.curr_col
