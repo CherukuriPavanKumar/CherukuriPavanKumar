@@ -120,12 +120,12 @@ def main():
     \x1b[96mAgentAstra:   \x1b[93m Multi-agent startup research platform\x1b[0m
     \x1b[96mSwiftChain:   \x1b[93m Decentralized crypto payments\x1b[0m
     
-    \x1b[30;101mGitHub Stats:\x1b[0m
+    \x1b[30;101mTech Stack:\x1b[0m
     --------------
-    \x1b[96mUsername: \x1b[93m{stats.account_name}\x1b[0m
-    \x1b[96mUser Rating: \x1b[93m{stats.user_rank.level}\x1b[0m
-    \x1b[96mTotal Stars: \x1b[93m{stats.total_stargazers}\x1b[0m
-    \x1b[96mTotal Commits ({int(year_now) - 1}): \x1b[93m{stats.total_commits_last_year}\x1b[0m
+    \x1b[96mLangs:  \x1b[93mPython, C++, TypeScript, JavaScript, SQL\x1b[0m
+    \x1b[96mWeb:    \x1b[93mNext.js, FastAPI, Node.js, Tailwind CSS\x1b[0m
+    \x1b[96mAI/ML:  \x1b[93mPyTorch, LangGraph, LangChain, TensorFlow\x1b[0m
+    \x1b[96mInfra:  \x1b[93mPostgreSQL, Docker, Redis\x1b[0m
     """
     t.gen_prompt(1)
     prompt_col = t.curr_col
